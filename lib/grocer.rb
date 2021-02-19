@@ -27,4 +27,4 @@ grocery_shelf = [
 { :item => "HOT SAUCE", :price => 1.75, :clearance => false }
 ]
 
-find_item_by_name_in_collection("CANNED CORN", grocery_shelf)
+puts find_item_by_name_in_collection("CANNED CORN", grocery_shelf)
