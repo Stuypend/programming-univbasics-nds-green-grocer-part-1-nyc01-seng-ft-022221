@@ -22,7 +22,7 @@ def consolidate_cart(cart)
     |item|
 
     if(find_item_by_name_in_collection(item[:item], final_cart) == nil)
-      item[:count] = 0
+      item[:count] = 1
       final_cart.push(item)
     else
       final_cart.each do
